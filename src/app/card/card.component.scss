@@ -1,0 +1,14 @@
+.card {
+    width: 19%;
+    height: 50px;
+    float: left;
+    padding: 1%;
+    border: 5px solid grey;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    p {
+        text-align: center;
+    }
+}

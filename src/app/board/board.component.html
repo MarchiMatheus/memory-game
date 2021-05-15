@@ -1,0 +1,17 @@
+<div>
+    <button (click)="newGame()">New Game</button>
+</div>
+
+<br>
+
+<div class="board">
+    
+    <app-card
+        *ngFor="let card of cards; let i = index"
+        [value]="card.value"
+        [isShown]="card.show"
+        (click)="makeMove(i)"
+    >
+    </app-card>
+
+</div>
